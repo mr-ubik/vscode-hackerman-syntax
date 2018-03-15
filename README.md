@@ -1,4 +1,4 @@
-# README
-## This is the README for your extension "ubik-hackerman-syntax"
+# Hackerman Syntax
+## Description
 
 TEST
