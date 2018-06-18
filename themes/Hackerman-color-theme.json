@@ -2,18 +2,20 @@
   "name": "Hackerman",
   "type": "dark",
   "colors": {
-    "editor.background": "#0e0e0e",
-    "editor.foreground": "#00C4FF",
+    // "editor.background": "#0e0e0e",
+    "editor.background": "#000000",
+    // "editor.foreground": "#00C4FF",
+    "editor.foreground": "#00d0ff",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbb"
   },
   "tokenColors": [
-    {
-      "settings": {
-        "foreground": "#eeffffff",
-        "background": "#263238ff"
-      }
-    },
+    // {
+    //   "settings": {
+    //     "foreground": "#eeffffff",
+    //     "background": "#263238ff"
+    //   }
+    // },
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
@@ -67,7 +69,8 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        // "foreground": "#89DDFF"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -479,15 +482,12 @@
     {
       "name": "Markup - Strike",
       "scope": ["markup.strike"],
-      "settings": {
-        "fontDecoration": "strike"
-      }
+      "settings": {}
     },
     {
       "name": "Markdown - Blockquote",
       "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
       "settings": {
-        "background": "#65737E",
         "foreground": "#65737E"
       }
     },
@@ -564,7 +564,6 @@
       "scope": ["meta.separator"],
       "settings": {
         "fontStyle": "bold",
-        "background": "#000050",
         "foreground": "#65737E"
       }
     },
@@ -606,6 +605,32 @@
         "foreground": "#00FFD5"
       }
     },
+    {
+      "scope": "string.quoted.single.python",
+      "settings": {
+        "foreground": "#dfdfdf"
+      }
+    },
+    {
+      "scope": "variable.parameter.function-call.python",
+      "settings": {
+        "foreground": "#00FFFF"
+      }
+    },
+    {
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#ff005d"
+      }
+    },
+
+
+    // {
+    //   "scope": "keyword.python",
+    //   "settings": {
+    //     "foreground": "#ffffff"
+    //   }
+    // },
     // Jinja ---------------------------------------------------------------
     {
       "scope": "entity.other.jinja.delimiter.tag",
