@@ -612,13 +612,13 @@
       }
     },
     {
-      "scope": "variable.parameter.function-call.python",
+      "scope": ["variable.parameter.function-call.python"],
       "settings": {
         "foreground": "#00FFFF"
       }
     },
     {
-      "scope": "constant.character.format.placeholder.other.python",
+      "scope": ["constant.character.format.placeholder.other.python", "constant.language.python"],
       "settings": {
         "foreground": "#ff005d"
       }
@@ -631,6 +631,8 @@
     //     "foreground": "#ffffff"
     //   }
     // },
+
+
     // Jinja ---------------------------------------------------------------
     {
       "scope": "entity.other.jinja.delimiter.tag",
@@ -643,6 +645,25 @@
       "settings": {
         "foreground": "#ff51d4"
       }
+    },
+    {
+      "scope": "entity.other.attribute-name.table.toml",
+      "settings": {
+        "foreground": "#ff51d4",
+      }
+    },
+    {
+      "scope": "keyword.key.toml",
+      "settings": {
+        "foreground": "#00d0ff",
+      }
+    },
+    {
+      "scope": "string.quoted.single.basic.line.toml",
+      "settings": {
+        "foreground": "#dfdfdf",
+      }
     }
+
   ]
 }
