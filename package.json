@@ -1,6 +1,6 @@
 {
-    "name": "ubik-hackerman-syntax",
-    "displayName": "ubik-hackerman-syntax",
+    "name": "hackerman-syntax",
+    "displayName": "hackerman-syntax",
     "description": "80's Retrowave, cyberpunk, neon lights, bright colors and great code readability all in one syntax featuring also language-specific highlighting!",
     "version": "0.2.0",
     "repository": "https://github.com/mr-ubik/vscode-hackerman-syntax",
